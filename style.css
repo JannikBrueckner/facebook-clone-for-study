@@ -1,0 +1,378 @@
+/* Statischer Nachbau der Detailansicht eines Posts (iOS, Light Mode).
+   Alle Maße in CSS-Pixeln bei 390 px Viewport-Breite. */
+
+:root {
+  --bg: #FFFFFF;
+  --text: #050505;
+  --text-2: #65676B;
+  --bubble: #F0F2F5;
+  --divider: #E4E6EB;
+  --blue: #0866FF;
+  --side: 16px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+#app {
+  width: 390px;
+  margin: 0;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+svg { display: block; flex: none; }
+
+/* ---------- 2. App-Kopfzeile ---------- */
+.appbar {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px 0 8px;
+  border-bottom: 1px solid var(--divider);
+}
+.appbar-back { margin-right: 6px; }
+.appbar-title {
+  flex: 1;
+  min-width: 0;
+  font-size: 17px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.appbar-search { margin-left: 12px; }
+
+/* ---------- 3. Kopf des Posts ---------- */
+.post-head {
+  display: flex;
+  align-items: center;
+  padding: 12px var(--side) 0;
+}
+.page-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Platzhalter, solange die Bilddatei fehlt */
+.page-avatar.is-placeholder {
+  background: #C9CCD1;
+  color: #5A5D63;
+  font-size: 18px;
+  font-weight: 600;
+}
+.post-meta {
+  flex: 1;
+  min-width: 0;
+  margin-left: 8px;
+}
+.post-author {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+}
+/* Verifizierungsmarke, nur wenn page.verified true ist */
+.post-author .verified { margin-left: 4px; flex: none; }
+.post-author .verified[hidden] { display: none; }
+.post-sub {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--text-2);
+}
+.post-sub .dot { white-space: pre; }
+.post-sub .globe { display: block; flex: none; }
+.post-more { margin-left: 8px; }
+
+/* ---------- 4. Text ---------- */
+.post-text {
+  padding: 8px var(--side) 0;
+  font-size: 15px;
+  line-height: 20px;
+  overflow-wrap: break-word;
+}
+.post-text p {
+  margin: 0;
+  white-space: pre-line;
+}
+.post-text p + p { margin-top: 20px; }
+
+/* ---------- 5. Linkvorschau ---------- */
+.link-preview {
+  position: relative;
+  margin-top: 12px;
+  background: var(--bubble);
+}
+/* Info-Symbol in der oberen rechten Bildecke */
+.lp-info {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 1;
+}
+.lp-media {
+  width: 100%;
+  /* 1,91:1 bei 390 px = 204,2 px. Auf 204 px gerundet (ganze Pixel, stabile Hashes). */
+  height: 204px;
+  overflow: hidden;
+  background: var(--bubble);
+}
+.lp-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lp-body { padding: 12px; }
+.lp-domain {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--text-2);
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.lp-headline {
+  margin-top: 2px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--text);
+  overflow-wrap: break-word;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+.img-placeholder {
+  width: 100%;
+  height: 100%;
+  background: #C9CCD1;
+  color: #5A5D63;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  text-align: center;
+  padding: 16px;
+}
+
+/* ---------- 7. Aktionsleiste ---------- */
+.actions {
+  height: 44px;
+  display: flex;
+  align-items: stretch;
+  margin: 0 var(--side);
+  /* Keine Linie oben: Die Reaktionszeile entfällt, die Leiste schließt direkt
+     ans Bild an, dessen Unterkante bereits trennt. */
+  position: relative;
+}
+/* Trennlinie unter der Aktionsleiste über die volle Breite */
+.actions::after {
+  content: "";
+  position: absolute;
+  left: calc(-1 * var(--side));
+  right: calc(-1 * var(--side));
+  bottom: 0;
+  height: 1px;
+  background: var(--divider);
+}
+.action {
+  flex: 1 1 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-2);
+  white-space: nowrap;
+}
+
+/* ---------- 8. KI-Zusammenfassung ---------- */
+.summary {
+  margin: 12px var(--side) 0;
+  background: #FFFFFF;
+  border: 1px solid var(--divider);
+  border-radius: 12px;
+  padding: 12px;
+}
+.summary[hidden] { display: none; }
+.summary-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.summary-text {
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--text);
+  overflow-wrap: break-word;
+}
+.summary-foot {
+  margin-top: 8px;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--text-2);
+}
+
+/* Eigene Rasterebene: Weichzeichner werden dadurch unabhängig von der
+   vertikalen Position (mit/ohne Zusammenfassung) identisch gerastert. */
+.comments-shot {
+  background: var(--bg);
+  will-change: transform;
+}
+
+/* ---------- 9. Sortierzeile ---------- */
+.sortrow {
+  padding: 12px var(--side);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: var(--text);
+}
+.sortrow .caret { font-size: 12px; margin-left: 1px; }
+
+/* ---------- 10. Kommentare ---------- */
+.comments { padding: 0 var(--side); }
+.comment { display: flex; align-items: flex-start; }
+.comment + .comment { margin-top: 12px; }
+
+/* Pseudo-Profilbild: weichgezeichnetes Schema-Foto, rund beschnitten.
+   Das Canvas ragt 20 % über den Kreis hinaus (32 px × 1,4 = 44,8 px),
+   damit der Blur am Rand nicht gegen Weiß ausblendet. */
+.pavatar {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex: none;
+  background: #C9CCD1;
+  isolation: isolate;
+}
+.pavatar > canvas {
+  position: absolute;
+  left: -6.4px;
+  top: -6.4px;
+  width: 44.8px;
+  height: 44.8px;
+  filter: blur(3.5px);
+}
+
+.comment-body {
+  margin-left: 8px;
+  min-width: 0;
+  flex: 1;
+}
+.bubble {
+  display: inline-block;
+  max-width: 100%;
+  background: var(--bubble);
+  border-radius: 18px;
+  padding: 8px 12px;
+  overflow: hidden;
+  vertical-align: top;
+}
+.c-name {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  white-space: nowrap;
+  filter: blur(5px);
+}
+.c-text {
+  font-size: 15px;
+  line-height: 20px;
+  overflow-wrap: break-word;
+}
+/* Erwähnung im Kommentar (ohne @): wie der Kommentarname weichgezeichnet, hervorgehoben in Blau */
+.c-mention {
+  display: inline-block;
+  color: #0866FF;
+  font-weight: 600;
+  white-space: nowrap;
+  filter: blur(5px);
+}
+.c-meta {
+  display: flex;
+  gap: 16px;
+  padding-left: 12px;
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  color: var(--text-2);
+}
+
+/* ---------- 11. Kommentarfeld ---------- */
+.composer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px var(--side) 8px;
+}
+.composer-field {
+  flex: 1;
+  height: 36px;
+  border-radius: 20px;
+  background: var(--bubble);
+  color: var(--text-2);
+  font-size: 15px;
+  line-height: 36px;
+  padding: 0 12px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.home-indicator-wrap {
+  padding-top: 13px;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
+.home-indicator {
+  width: 134px;
+  height: 5px;
+  border-radius: 3px;
+  background: #000;
+}
+
+.render-error {
+  padding: 24px 16px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #B00020;
+}

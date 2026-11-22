@@ -1,0 +1,40 @@
+# Erzeugt die finalen Screenshots auf einem Mac (Apple-Emojis, echte iOS-Systemschrift).
+# Start: Repository → Reiter "Actions" → "Screenshots" → "Run workflow".
+# Ergebnis: Unten auf der Seite des Laufs unter "Artifacts" → "screenshots" (Zip mit allen PNGs).
+name: Screenshots
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  shots:
+    runs-on: macos-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Abhängigkeiten installieren
+        run: npm install
+
+      - name: Chromium für Playwright installieren
+        run: npx playwright install chromium
+
+      - name: Screenshots erzeugen und prüfen
+        run: node scripts/screenshot.mjs
+
+      # Auch hochladen, wenn eine Prüfung fehlschlägt, damit die Bilder zum Nachsehen da sind
+      - name: Screenshots als Download bereitstellen
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots
+          path: output/*.png
+          if-no-files-found: error
+          retention-days: 90

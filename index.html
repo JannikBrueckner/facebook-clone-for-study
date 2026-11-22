@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Post</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Gemeinsame SVG-Definitionen (Verläufe) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="sparkGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0866FF"/>
+      <stop offset="1" stop-color="#A033FF"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<main id="app">
+
+  <!-- ===================== POST ===================== -->
+  <section class="post-shot" data-shot="post">
+
+    <!-- 2. App-Kopfzeile -->
+    <header class="appbar">
+      <svg class="appbar-back" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M15 4.5 7.5 12l7.5 7.5" fill="none" stroke="#050505" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <div class="appbar-title" data-bind="pageName"></div>
+      <svg class="appbar-search" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="#050505" stroke-width="2"/>
+        <path d="m15.5 15.5 4.8 4.8" stroke="#050505" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+    </header>
+
+    <!-- 3. Kopf des Posts -->
+    <div class="post-head">
+      <div class="page-avatar" data-bind="pageAvatar"></div>
+      <div class="post-meta">
+        <div class="post-author">
+          <span data-bind="pageName"></span>
+          <svg class="verified" width="14" height="14" viewBox="0 0 12 12" aria-label="Verifiziert" hidden>
+            <path fill="#0866FF" d="M7.198.34a.88.88 0 0 1 1.164.38l.623 1.175 1.311.23a.88.88 0 0 1 .72.99l-.187 1.318.925.956a.88.88 0 0 1 0 1.224l-.925.957.186 1.317a.88.88 0 0 1-.719.99l-1.31.23-.625 1.176a.88.88 0 0 1-1.163.378l-1.196-.584-1.196.584a.88.88 0 0 1-1.164-.378l-.623-1.176-1.311-.23a.88.88 0 0 1-.72-.99l.187-1.317-.925-.957a.88.88 0 0 1 0-1.224l.925-.956-.187-1.318a.88.88 0 0 1 .72-.99l1.31-.23L3.643.72A.88.88 0 0 1 4.806.34l1.196.584L7.198.341zm1.656 4.764a.5.5 0 1 0-.708-.708L5.25 7.293 3.854 5.896a.5.5 0 1 0-.708.708L4.543 8a1 1 0 0 0 1.414 0l2.897-2.896z"></path>
+          </svg>
+        </div>
+        <div class="post-sub">
+          <span data-bind="postTime"></span><span class="dot"> · </span>
+          <svg class="globe" viewBox="0 0 16 16" width="12" height="12" fill="currentColor" aria-hidden="true"><g fill-rule="evenodd" transform="translate(-448 -544)"><g><path d="M109.5 408.5c0 3.23-2.04 5.983-4.903 7.036l.07-.036c1.167-1 1.814-2.967 2-3.834.214-1 .303-1.3-.5-1.96-.31-.253-.677-.196-1.04-.476-.246-.19-.356-.59-.606-.73-.594-.337-1.107.11-1.954.223a2.666 2.666 0 0 1-1.15-.123c-.007 0-.007 0-.013-.004l-.083-.03c-.164-.082-.077-.206.006-.36h-.006c.086-.17.086-.376-.05-.529-.19-.214-.54-.214-.804-.224-.106-.003-.21 0-.313.004l-.003-.004c-.04 0-.084.004-.124.004h-.037c-.323.007-.666-.034-.893-.314-.263-.353-.29-.733.097-1.09.28-.26.863-.8 1.807-.22.603.37 1.166.667 1.666.5.33-.11.48-.303.094-.87a1.128 1.128 0 0 1-.214-.73c.067-.776.687-.84 1.164-1.2.466-.356.68-.943.546-1.457-.106-.413-.51-.873-1.28-1.01a7.49 7.49 0 0 1 6.524 7.434" transform="translate(354 143.5)"></path><path d="M104.107 415.696A7.498 7.498 0 0 1 94.5 408.5a7.48 7.48 0 0 1 3.407-6.283 5.474 5.474 0 0 0-1.653 2.334c-.753 2.217-.217 4.075 2.29 4.075.833 0 1.4.561 1.333 2.375-.013.403.52 1.78 2.45 1.89.7.04 1.184 1.053 1.33 1.74.06.29.127.65.257.97a.174.174 0 0 0 .193.096" transform="translate(354 143.5)"></path><path fill-rule="nonzero" d="M110 408.5a8 8 0 1 1-16 0 8 8 0 0 1 16 0zm-1 0a7 7 0 1 0-14 0 7 7 0 0 0 14 0z" transform="translate(354 143.5)"></path></g></g></svg>
+        </div>
+      </div>
+      <svg class="post-more" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="5" cy="12" r="2" fill="#65676B"/><circle cx="12" cy="12" r="2" fill="#65676B"/><circle cx="19" cy="12" r="2" fill="#65676B"/>
+      </svg>
+    </div>
+
+    <!-- 4. Text -->
+    <div class="post-text" data-bind="postText"></div>
+
+    <!-- 5. Linkvorschau (Bild 1,91:1, darunter Domain und Headline) -->
+    <div class="link-preview">
+      <!-- Info-Symbol: weißer Kreis mit schwarzem "i" oben rechts im Bild -->
+      <svg class="lp-info" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="12" fill="#fff"/>
+        <path transform="translate(2 2)" fill="#050505" d="M13.502 5a1.75 1.75 0 1 1-3.5 0 1.75 1.75 0 0 1 3.5 0zM7.566 8.626a2.818 2.818 0 0 1 3.734.17 2.84 2.84 0 0 1 .477 3.47l-1.26 2.146a.566.566 0 0 0 .722.803l.067-.03a.449.449 0 0 1 .602.24l.026.067c.08.199.03.427-.129.573l-.225.208a2.74 2.74 0 0 1-4.217-3.406l1.522-2.578a.434.434 0 0 0-.468-.645l-.399.089a.604.604 0 0 1-.511-1.058l.06-.049z"></path>
+      </svg>
+      <div class="lp-media" data-bind="media"></div>
+      <div class="lp-body">
+        <div class="lp-domain" data-bind="lpDomain"></div>
+        <div class="lp-headline" data-bind="lpHeadline"></div>
+      </div>
+    </div>
+
+    <!-- 7. Aktionsleiste -->
+    <div class="actions">
+      <div class="action">
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7.5 10.5v9.5H4.2a1.2 1.2 0 0 1-1.2-1.2v-7.1c0-.66.54-1.2 1.2-1.2zm0 0 3.8-6.3c.5-.83 1.75-.83 2.2.05.25.5.3 1.07.15 1.6l-.95 3.25h5.4c1.3 0 2.25 1.24 1.9 2.5l-1.85 6.6A2.2 2.2 0 0 1 16.05 20H7.5" fill="none" stroke="#65676B" stroke-width="1.7" stroke-linejoin="round"/>
+        </svg>
+        <span>Gefällt mir</span>
+      </div>
+      <div class="action">
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 3.2c-5 0-9 3.6-9 8.1 0 2.4 1.15 4.55 3 6.05V21l3.3-1.8c.85.22 1.75.33 2.7.33 5 0 9-3.6 9-8.2S17 3.2 12 3.2z" fill="none" stroke="#65676B" stroke-width="1.7" stroke-linejoin="round"/>
+        </svg>
+        <span>Kommentieren</span>
+      </div>
+      <div class="action">
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M13.5 4.5v4C7 9 3.5 13 3 19.5 5 16 8.3 14.6 13.5 14.6v4.4l7.5-7.25z" fill="none" stroke="#65676B" stroke-width="1.7" stroke-linejoin="round"/>
+        </svg>
+        <span>Teilen</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 8. KI-ZUSAMMENFASSUNG (nur A/B) ===================== -->
+  <section class="summary" data-shot="summary" hidden>
+    <div class="summary-head">
+      <svg class="spark" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="12" cy="12" r="8.5" fill="none" stroke="url(#sparkGrad)" stroke-width="3.2"/>
+      </svg>
+      <span>Was andere dazu sagen</span>
+    </div>
+    <div class="summary-text" data-bind="summaryText"></div>
+    <div class="summary-foot">KI-generiert · Kann Fehler enthalten</div>
+  </section>
+
+  <!-- ===================== 9.–11. KOMMENTARE ===================== -->
+  <section class="comments-shot" data-shot="comments">
+    <div class="sortrow">Relevanteste <span class="caret">▾</span></div>
+    <div class="comments" data-bind="comments"></div>
+    <div class="composer">
+      <div class="pavatar" data-bind="viewerAvatar"></div>
+      <div class="composer-field">Schreibe einen Kommentar …</div>
+    </div>
+  </section>
+
+  <div class="home-indicator-wrap"><div class="home-indicator"></div></div>
+</main>
+
+<script src="render.js"></script>
+</body>
+</html>

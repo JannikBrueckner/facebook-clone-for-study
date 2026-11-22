@@ -1,0 +1,519 @@
+{
+  "viewerAvatarSeed": 99,
+  "reactionCount": 38,
+  "page": {
+    "name": "Arlsburger Rundschau",
+    "avatar": "assets/images/page-avatar.png",
+    "verified": true
+  },
+  "cases": {
+    "T1": {
+      "postTime": "vor 2 Wochen",
+      "postText": "Die Stadt Arlsburg will ab dem kommenden Jahr eine Gebühr für die Nutzung ihrer acht Sporthallen einführen. Bislang können die rund 60 Sportvereine die Hallen kostenlos nutzen. Die Verwaltung verweist auf Kosten für Energie, Reinigung und Hausmeister von rund 1,2 Millionen Euro jährlich. Ob und in welcher Höhe die Gebühr kommt, berät am Dienstag der Finanzausschuss.\n\nWie seht ihr das?",
+      "linkPreview": {
+        "image": "assets/images/turnhalle_leer.jpg",
+        "domain": "ARLSBURGER-RUNDSCHAU.DE",
+        "headline": "Sporthallen: Arlsburger Vereine sollen künftig Gebühr zahlen"
+      },
+      "summary": {
+        "A": "Die Kommentierenden lehnen die Gebühr ab. Sie befürchten steigende Beiträge, die besonders Familien und Kinder treffen, sowie das Aus kleiner Vereine. Ehrenamtliche würden weiter belastet, obwohl Vereine Jugendarbeit leisten und die Hallen durch den Schulsport ohnehin beheizt werden. Die Kommentare stützen sich auf eigene Erfahrungen im Sport als Eltern, Trainer, Vereinsmitglieder und Lehrkräfte.",
+        "B": "Die Kommentierenden lehnen die Gebühr ab. Sie befürchten steigende Beiträge, die besonders Familien und Kinder treffen, sowie das Aus kleiner Vereine. Ehrenamtliche würden weiter belastet, obwohl Vereine Jugendarbeit leisten und die Hallen durch den Schulsport ohnehin beheizt werden. Ein kleinerer Teil hält die Gebühr für gerecht und wünscht zweckgebundene Investitionen in die Hallen."
+      },
+      "comments": [
+        {
+          "pos": 1,
+          "name": "Bernd Hoffmann",
+          "seed": 301,
+          "time": "vor 2 Wochen",
+          "text": "Ehrenamtliche stehen jede Woche umsonst in der Halle und sollen jetzt noch zahlen!!!"
+        },
+        {
+          "pos": 2,
+          "name": "Jessica Neumann",
+          "seed": 302,
+          "time": "vor 2 Wochen",
+          "text": "Mein Sohn spielt im TSV Handball, der Beitrag ist für uns schon jetzt knapp. Wenn der steigt, muss er aufhören 😞"
+        },
+        {
+          "pos": 3,
+          "name": "Michael Brenner",
+          "seed": 303,
+          "time": "vor 2 Wochen",
+          "text": "Die VHS zahlt auch für ihre Räume. Gleiches Recht für alle"
+        },
+        {
+          "pos": 4,
+          "name": "Lena Hofer",
+          "seed": 304,
+          "time": "vor 2 Wochen",
+          "text": "nein, das trifft doch die kinder 😡"
+        },
+        {
+          "pos": 5,
+          "name": "Wolfgang Sauer",
+          "seed": 305,
+          "time": "vor 2 Wochen",
+          "text": "@[Andreas] Als Vorstand unseres Turnvereins sehe ich schwarz: Bei 300 Mitgliedern müssten wir die Beiträge deutlich erhöhen."
+        },
+        {
+          "pos": 6,
+          "name": "Marco Engel",
+          "seed": 306,
+          "time": "vor 1 Woche",
+          "text": "vereine leisten jugendarbeit die die stadt sonst bezahlen müsste 😤"
+        },
+        {
+          "pos": 7,
+          "name": "Stefan Krüger",
+          "seed": 307,
+          "time": "vor 2 Wochen",
+          "text": "Ich trainiere seit zwölf Jahren ehrenamtlich die F-Jugend. Wenn jetzt noch Hallengebühren kommen, finden wir bald niemanden mehr, der sich das antut. Bitte keine Gebühr."
+        },
+        {
+          "pos": 8,
+          "name": "Daniel Pohl",
+          "seed": 308,
+          "time": "vor 2 Wochen",
+          "text": "Ich zahle im Fitnessstudio 40 Euro im Monat. Ein paar Euro mehr im Jahr für eine beheizte und geputzte Halle sind fair!! 👍"
+        },
+        {
+          "pos": 9,
+          "name": "Petra Lindner",
+          "seed": 309,
+          "time": "vor 2 Wochen",
+          "text": "Sport hält Kinder von der Straße und fit. Genau da darf die Stadt nicht sparen!!! 💪"
+        },
+        {
+          "pos": 10,
+          "name": "Timo Schulz",
+          "seed": 310,
+          "time": "vor 2 Wochen",
+          "text": "Gut so. Als Vereinsmitglied kann ich sagen, das Geld hätten die Hallen dringend nötig."
+        },
+        {
+          "pos": 11,
+          "name": "Jana Rieger",
+          "seed": 311,
+          "time": "vor 1 Woche",
+          "text": "unser volleyballverein hat 60 mitglieder, so eine gebühr wär unser ende 😢"
+        },
+        {
+          "pos": 12,
+          "name": "Holger Brandl",
+          "seed": 312,
+          "time": "vor 2 Wochen",
+          "text": "Bin ganz klar dagegen 👎"
+        },
+        {
+          "pos": 13,
+          "name": "Carina Wolf",
+          "seed": 313,
+          "time": "vor 2 Wochen",
+          "text": "@[Sabine] schlimm, das betrifft auch unsere Tanzgruppe. Wenn die Stadt das durchzieht, steigen bei uns allen die Beiträge"
+        },
+        {
+          "pos": 14,
+          "name": "Andrea Westphal",
+          "seed": 314,
+          "time": "vor 2 Wochen",
+          "text": "@[Jörg] Ich finde die Gebühr richtig, sofern das Geld zweckgebunden in die Hallen fließt. Unsere Duschen sind seit Monaten kaputt."
+        },
+        {
+          "pos": 15,
+          "name": "Katrin Vogel",
+          "seed": 315,
+          "time": "vor 1 Woche",
+          "text": "Als Sportlehrerin weiß ich: Die Hallen werden tagsüber ohnehin für den Schulsport geheizt und gereinigt. Die Vereine nutzen sie abends nur zusätzlich. Wer kassieren will, trifft Familien mit wenig Geld."
+        },
+        {
+          "pos": 16,
+          "name": "Ralf Junghans",
+          "seed": 316,
+          "time": "vor 2 Wochen",
+          "text": "@[Frank Schulte] bitte im Ausschuss dagegen stimmen! Das Ehrenamt verdient Unterstützung statt neuer Kosten!"
+        }
+      ]
+    },
+    "T2": {
+      "postTime": "vor 3 Wochen",
+      "postText": "Bislang beschränkt sich die Weihnachtsbeleuchtung in Arlsburg auf die Fußgängerzone. Geht es nach der Stadtverwaltung, sollen ab dem nächsten Jahr auch der Marktplatz und die Bahnhofstraße beleuchtet werden: mit Lichterketten in den Platanen und Lichtbögen über der Fahrbahn. Die Stadt erhofft sich davon mehr Besucher in der Innenstadt. Der Stadtrat befasst sich am Donnerstag mit den Plänen.\n\nWas meint ihr?",
+      "linkPreview": {
+        "image": "assets/images/fussgaengerzone_advent.jpg",
+        "domain": "ARLSBURGER-RUNDSCHAU.DE",
+        "headline": "Mehr Licht im Advent: Stadt will Beleuchtung ausbauen"
+      },
+      "summary": {
+        "A": "Die Kommentierenden begrüßen das Vorhaben. Sie empfinden die Innenstadt an Winterabenden als trostlos und erwarten belebte Plätze, einladendere Straßen für Geschäfte und Gastronomie sowie einen besseren ersten Eindruck. Familien und ältere Menschen hätten zudem einen Anlass, abends auszugehen. Die Kommentare stützen sich auf eigene Beobachtungen, berufliche Erfahrungen und Eindrücke aus anderen Städten.",
+        "B": "Die Kommentierenden begrüßen das Vorhaben. Sie empfinden die Innenstadt an Winterabenden als trostlos und erwarten belebte Plätze, einladendere Straßen für Geschäfte und Gastronomie sowie einen besseren ersten Eindruck. Familien und ältere Menschen hätten zudem einen Anlass, abends auszugehen. Ein kleinerer Teil kritisiert laufende Kosten und fordert Vorrang für Schulen, Leerstand und Abendbusse."
+      },
+      "comments": [
+        {
+          "pos": 1,
+          "name": "Sandra Kühn",
+          "seed": 401,
+          "time": "vor 3 Wochen",
+          "text": "Endlich! Arlsburg sieht im Dezember ab 17 Uhr außerhalb der Fußgängerzone trostlos aus. Unbedingt machen!!!"
+        },
+        {
+          "pos": 2,
+          "name": "Leonie Brandt",
+          "seed": 402,
+          "time": "vor 3 Wochen",
+          "text": "lichterketten in den platanen 😍 das wird so schön"
+        },
+        {
+          "pos": 3,
+          "name": "Thomas Reinhardt",
+          "seed": 403,
+          "time": "vor 3 Wochen",
+          "text": "Währenddessen wartet die Grundschule meiner Tochter wartet seit Jahren auf neue Toiletten. Erst das, dann Lichtbögen!!"
+        },
+        {
+          "pos": 4,
+          "name": "Kerstin Albrecht",
+          "seed": 404,
+          "time": "vor 3 Wochen",
+          "text": "@[Birgit] das würde sicher unserem Geschäft gut tun. Da wirkt unsere Straße schon gleich viel einladender."
+        },
+        {
+          "pos": 5,
+          "name": "Jürgen Maier",
+          "seed": 405,
+          "time": "vor 3 Wochen",
+          "text": "Tolle Idee unbedingt umsetzen 👏"
+        },
+        {
+          "pos": 6,
+          "name": "Aylin Kaya",
+          "seed": 406,
+          "time": "vor 2 Wochen",
+          "text": "Meine Kinder lieben die Lichter in der Fußgängerzone. Mehr davon wär mega 🎄"
+        },
+        {
+          "pos": 7,
+          "name": "Dennis Vogt",
+          "seed": 407,
+          "time": "vor 3 Wochen",
+          "text": "bei meiner schwester in fulda hängen lichtbögen über den straßen. war richtig was los, das wünsch ich mir hier."
+        },
+        {
+          "pos": 8,
+          "name": "Uwe Gerlach",
+          "seed": 408,
+          "time": "vor 3 Wochen",
+          "text": "Schöne Lichter lösen keine Probleme 😒"
+        },
+        {
+          "pos": 9,
+          "name": "Monika Schreiber",
+          "seed": 409,
+          "time": "vor 3 Wochen",
+          "text": "Der Marktplatz ist im Winter abends wie ausgestorben. Mit Lichtern würde er wieder leben!!! 🌟"
+        },
+        {
+          "pos": 10,
+          "name": "Gabriele Lorenz",
+          "seed": 410,
+          "time": "vor 3 Wochen",
+          "text": "In der Bahnhofstraße stehen sechs Läden leer, darunter unser alter Buchladen. Lichtbögen darüber bringen uns wenig. Die Stadt sollte sich zuerst um den Leerstand kümmern. @[Heike]"
+        },
+        {
+          "pos": 11,
+          "name": "Fabian Wolff",
+          "seed": 411,
+          "time": "vor 2 Wochen",
+          "text": "@[Lukas] klasse, die Bahnhofstraße ist das Erste was Besucher sehen"
+        },
+        {
+          "pos": 12,
+          "name": "Elke Hartmann",
+          "seed": 412,
+          "time": "vor 3 Wochen",
+          "text": "Als Wirtin am Marktplatz weiß ich: Wenn es draußen hell und gemütlich ist, bleiben die Leute länger und kehren noch ein."
+        },
+        {
+          "pos": 13,
+          "name": "Kevin Lange",
+          "seed": 413,
+          "time": "vor 3 Wochen",
+          "text": "find ich gut wird zeit dass die innenstadt mal aufgewertet wird @[Thomas]"
+        },
+        {
+          "pos": 14,
+          "name": "Sven Kowalski",
+          "seed": 414,
+          "time": "vor 3 Wochen",
+          "text": "Das kostet jedes Jahr wieder mehr Geld. Lieber in den Abendbus stecken 😕"
+        },
+        {
+          "pos": 15,
+          "name": "Natascha Becker",
+          "seed": 415,
+          "time": "vor 2 Wochen",
+          "text": "Gerade für ältere Leute ist ein schön beleuchteter Marktplatz ein Grund, abends rauszugehen!!! ❤️"
+        },
+        {
+          "pos": 16,
+          "name": "Hans-Peter Ludwig",
+          "seed": 416,
+          "time": "vor 3 Wochen",
+          "text": "Ich hoffe der Vorschlag setzt sich durch. Eine Investition in die Lebensqualität und die Attraktivität unserer Innenstadt ist immer lohnend. ✨"
+        }
+      ]
+    },
+    "T3": {
+      "postTime": "vor 2 Wochen",
+      "postText": "Mittagessen im Werk, auch ohne Arbeitsvertrag: Der Maschinenbauer Ruhnke prüft, seine Kantine an der Industriestraße ab dem Frühjahr für alle zu öffnen. Werktags zwischen 11.30 und 14 Uhr könnten dann auch Gäste von außen eines von drei Gerichten wählen. Man wolle die 300 Plätze besser auslasten, heißt es aus der Geschäftsführung. Entschieden ist noch nichts.\n\nWie seht ihr das?",
+      "linkPreview": {
+        "image": "assets/images/kantine_leer.jpg",
+        "domain": "ARLSBURGER-RUNDSCHAU.DE",
+        "headline": "Ruhnke prüft Mittagstisch für alle in der Werkskantine"
+      },
+      "summary": {
+        "A": "Die Kommentierenden begrüßen die Öffnung. Im Gewerbegebiet fehle ein bezahlbares warmes Mittagessen, frisch Gekochtes sei Brötchen und Fertigsalaten vorzuziehen. Beschäftigte umliegender Betriebe und Baustellen schätzen die kurzen Wege, Alleinstehende und Ältere die Gesellschaft. Zudem lasse sich Essensverschwendung vermeiden. Die Kommentare stützen sich auf eigene Erfahrungen als Beschäftigte, Handwerker, Stammgäste, Rentnerinnen und Angehörige.",
+        "B": "Die Kommentierenden begrüßen die Öffnung. Im Gewerbegebiet fehle ein bezahlbares warmes Mittagessen, frisch Gekochtes sei Brötchen und Fertigsalaten vorzuziehen. Beschäftigte umliegender Betriebe und Baustellen schätzen die kurzen Wege, Alleinstehende und Ältere die Gesellschaft. Zudem lasse sich Essensverschwendung vermeiden. Ein kleinerer Teil fürchtet unfaire Konkurrenz für benachbarte Imbisse und Gedränge in knappen Pausen."
+      },
+      "comments": [
+        {
+          "pos": 1,
+          "name": "Melanie Schütz",
+          "seed": 501,
+          "time": "vor 2 Wochen",
+          "text": "Mein Vater isst seit Mamas Tod meist allein. So ein günstiger Mittagstisch wäre perfekt für ihn!!!"
+        },
+        {
+          "pos": 2,
+          "name": "Nico Baumann",
+          "seed": 502,
+          "time": "vor 2 Wochen",
+          "text": "gute idee, endlich was in der industriestraße 👍"
+        },
+        {
+          "pos": 3,
+          "name": "Sebastian Kraus",
+          "seed": 503,
+          "time": "vor 2 Wochen",
+          "text": "@[Tanja] das wäre bitter für Mehmets Imbiss gegenüber, wo ich seit Jahren esse. Der lebt doch von der Mittagskundschaft!!"
+        },
+        {
+          "pos": 4,
+          "name": "Ingrid Faber",
+          "seed": 504,
+          "time": "vor 2 Wochen",
+          "text": "Eine gute Idee. Im Gewerbegebiet fehlt bislang ein bezahlbares warmes Mittagessen."
+        },
+        {
+          "pos": 5,
+          "name": "Patrick Hein",
+          "seed": 505,
+          "time": "vor 2 Wochen",
+          "text": "Ich bin als Elektriker oft auf Baustellen im Gewerbegebiet. Ein warmes Essen zum fairen Preis statt der ewigen Brötchen vom Bäcker wäre eine Verbesserung."
+        },
+        {
+          "pos": 6,
+          "name": "Svenja Ott",
+          "seed": 506,
+          "time": "vor 1 Woche",
+          "text": "Da wär ich sofort dabei 😋"
+        },
+        {
+          "pos": 7,
+          "name": "Oliver Franke",
+          "seed": 507,
+          "time": "vor 2 Wochen",
+          "text": "Drei Gerichte zur Auswahl und frisch gekocht, das schlägt locker jeden Fertigsalat aus dem Supermarkt!!! 🍽️"
+        },
+        {
+          "pos": 8,
+          "name": "Ivana Petrović",
+          "seed": 508,
+          "time": "vor 2 Wochen",
+          "text": "@[Sven] lieber nicht, unsere pause ist knapp 😬"
+        },
+        {
+          "pos": 9,
+          "name": "Christian Mertens",
+          "seed": 509,
+          "time": "vor 2 Wochen",
+          "text": "Ich arbeite in der Spedition zwei Häuser weiter und wir haben keine eigene Kantine. Ein Mittagstisch in Laufweite wäre für unser Büro eine große Erleichterung, gegen einen fairen Aufpreis."
+        },
+        {
+          "pos": 10,
+          "name": "Hannelore Brück",
+          "seed": 510,
+          "time": "vor 2 Wochen",
+          "text": "Ich arbeite bei Ruhnke in der Fertigung. Zur Stoßzeit ist es voll. Mit externen Gästen schaffen wir das in der kurzen Pause nicht."
+        },
+        {
+          "pos": 11,
+          "name": "Renate Kaiser",
+          "seed": 511,
+          "time": "vor 1 Woche",
+          "text": "als rentnerin würd ich da öfter hingehen, mal unter leute kommen ☺️"
+        },
+        {
+          "pos": 12,
+          "name": "Marcel Dietrich",
+          "seed": 512,
+          "time": "vor 2 Wochen",
+          "text": "@[Jonas] das wär doch was für unsere Mittagspause, die Baustelle in der Industriestraße geht ja noch bis Sommer"
+        },
+        {
+          "pos": 13,
+          "name": "Laura Seidel",
+          "seed": 513,
+          "time": "vor 2 Wochen",
+          "text": "So bleibt weniger Essen übrig und die Küche ist besser ausgelastet. Win-win ♻️"
+        },
+        {
+          "pos": 14,
+          "name": "Gerhard Winkler",
+          "seed": 514,
+          "time": "vor 2 Wochen",
+          "text": "Mit subventionierten Kantinenpreisen kann kein Imbiss mithalten. Das finde ich nicht fair 😕"
+        },
+        {
+          "pos": 15,
+          "name": "Sabine Kurz",
+          "seed": 515,
+          "time": "vor 1 Woche",
+          "text": "@[Hilde] guck mal, da könnten wir mittwochs zusammen essen gehen. Günstig, nah und mit netten Leuten, das gefällt mir richtig gut!!!"
+        },
+        {
+          "pos": 16,
+          "name": "Felix Hahn",
+          "seed": 516,
+          "time": "vor 2 Wochen",
+          "text": "top, so lernt man ruhnke auch mal als nachbarn kennen 🙂"
+        }
+      ]
+    },
+    "T4": {
+      "postTime": "vor 4 Wochen",
+      "postText": "Die Bäckerei Körting denkt über einen festen Ruhetag nach: Ab März könnten alle fünf Filialen montags geschlossen bleiben, an den übrigen Tagen ändert sich nichts. Die Inhaberin begründet die Überlegung mit fehlendem Personal in Verkauf und Backstube. Der Familienbetrieb beschäftigt rund 40 Menschen. Eine Entscheidung soll in den nächsten Wochen fallen.\n\nWas meint ihr?",
+      "linkPreview": {
+        "image": "assets/images/baeckerei_theke.jpg",
+        "domain": "ARLSBURGER-RUNDSCHAU.DE",
+        "headline": "Bäckerei Körting denkt über Ruhetag am Montag nach"
+      },
+      "summary": {
+        "A": "Die Kommentierenden lehnen den Ruhetag ab. Sie verweisen auf langjährige Montagsgewohnheiten wie das Frühstück vor Schicht, Baustelle oder Schulweg. Als Ersatz blieben Tankstelle oder Supermarkt, wohin Kundschaft dauerhaft abwandern könne. Ältere ohne Auto verlören zudem eine erreichbare Einkaufsmöglichkeit. Die Kommentare stützen sich auf eigene Erfahrungen als Stammkunden, Eltern, Handwerker, Nachbarn und Beschäftigte.",
+        "B": "Die Kommentierenden lehnen den Ruhetag ab. Sie verweisen auf langjährige Montagsgewohnheiten wie das Frühstück vor Schicht, Baustelle oder Schulweg. Als Ersatz blieben Tankstelle oder Supermarkt, wohin Kundschaft dauerhaft abwandern könne. Ältere ohne Auto verlören zudem eine erreichbare Einkaufsmöglichkeit. Ein kleinerer Teil zeigt Verständnis, da Beschäftigte Erholung bräuchten und sonst dauerhafte Schließungen drohten."
+      },
+      "comments": [
+        {
+          "pos": 1,
+          "name": "Anja Pfeiffer",
+          "seed": 601,
+          "time": "vor 4 Wochen",
+          "text": "Montag ohne frische Körting-Brötchen wäre für mich ein ganz schlechter Start in die Woche!!! 🥐"
+        },
+        {
+          "pos": 2,
+          "name": "Gisela Hartwig",
+          "seed": 602,
+          "time": "vor 4 Wochen",
+          "text": "Ich kaufe seit über zwanzig Jahren jeden Montag bei Ihnen mein Frühstück. Bitte überdenken Sie den Ruhetag noch einmal."
+        },
+        {
+          "pos": 3,
+          "name": "Jannik Becker",
+          "seed": 603,
+          "time": "vor 4 Wochen",
+          "text": "die mitarbeiter verdienen ihre pause, find ich gut 👍"
+        },
+        {
+          "pos": 4,
+          "name": "Dirk Lehmann",
+          "seed": 604,
+          "time": "vor 4 Wochen",
+          "text": "Ich hol montags vor der Frühschicht immer meine Brötchen dort. Ohne Körting bleibt nur die Tanke, schade"
+        },
+        {
+          "pos": 5,
+          "name": "Mia Krause",
+          "seed": 605,
+          "time": "vor 4 Wochen",
+          "text": "@[Ursula] oh nein, bitte nicht am montag 😩"
+        },
+        {
+          "pos": 6,
+          "name": "Hartmut Zeller",
+          "seed": 606,
+          "time": "vor 3 Wochen",
+          "text": "Keine gute Idee. Ich befürchte, dass sich viele Kunden montags an die Brötchen aus dem Supermarkt gewöhnen und an den anderen Tagen dort bleiben."
+        },
+        {
+          "pos": 7,
+          "name": "Kevin Albers",
+          "seed": 607,
+          "time": "vor 4 Wochen",
+          "text": "montag ist der tag wo man frische brötchen am meisten braucht!!! 😅"
+        },
+        {
+          "pos": 8,
+          "name": "Jürgen Stahl",
+          "seed": 608,
+          "time": "vor 4 Wochen",
+          "text": "Ich habe zehn Jahre in einer Backstube gearbeitet. Nachtschichten sechs Tage die Woche halten nur wenige durch. Ein fester Ruhetag ist ein richtiger Schritt."
+        },
+        {
+          "pos": 9,
+          "name": "Tobias Reuter",
+          "seed": 609,
+          "time": "vor 4 Wochen",
+          "text": "@[Kathrin] dann holen wir uns montags wohl alle Aufbackbrötchen. Find ich echt schade"
+        },
+        {
+          "pos": 10,
+          "name": "Miriam Sommer",
+          "seed": 610,
+          "time": "vor 4 Wochen",
+          "text": "@[Lisa] du hast ja selbst erzählt, wie platt ihr im Verkauf seid. Ruhetag unbedingt einführen!!"
+        },
+        {
+          "pos": 11,
+          "name": "Brigitte Hammer",
+          "seed": 611,
+          "time": "vor 3 Wochen",
+          "text": "Meine Nachbarin ist 84 und hat kein Auto. Die Körting-Filiale um die Ecke ist für sie die einzige Möglichkeit, montags frisches Brot zu bekommen. Bitte keinen Ruhetag."
+        },
+        {
+          "pos": 12,
+          "name": "Chiara Lenz",
+          "seed": 612,
+          "time": "vor 4 Wochen",
+          "text": "dann geh ich montags halt zum supermarkt, schade drum 🤷‍♀️"
+        },
+        {
+          "pos": 13,
+          "name": "Nadine Fuchs",
+          "seed": 613,
+          "time": "vor 4 Wochen",
+          "text": "Seit Jahren unser Montagsritual: Brötchen holen, Kinder zur Schule bringen. Das würde uns allen echt fehlen 😕"
+        },
+        {
+          "pos": 14,
+          "name": "Arne Kowalczyk",
+          "seed": 614,
+          "time": "vor 4 Wochen",
+          "text": "Kann ich nachvollziehen. Lieber montags zu als ganz dicht, weil keiner in der Backstube steht 🙏"
+        },
+        {
+          "pos": 15,
+          "name": "Rolf Brandt",
+          "seed": 615,
+          "time": "vor 3 Wochen",
+          "text": "Finde ich gar nicht gut 👎"
+        },
+        {
+          "pos": 16,
+          "name": "Marko Jovanović",
+          "seed": 616,
+          "time": "vor 4 Wochen",
+          "text": "@[Carsten] unser Handwerkerfrühstück auf der Baustelle kommt montags immer von Körting. Ohne das fängt die Woche richtig mies an!!!"
+        }
+      ]
+    }
+  }
+}
