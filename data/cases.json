@@ -8,510 +8,614 @@
   },
   "cases": {
     "T1": {
-      "postTime": "vor 2 Wochen",
-      "postText": "Die Stadt Arlsburg will ab dem kommenden Jahr eine Gebühr für die Nutzung ihrer acht Sporthallen einführen. Bislang können die rund 60 Sportvereine die Hallen kostenlos nutzen. Die Verwaltung verweist auf Kosten für Energie, Reinigung und Hausmeister von rund 1,2 Millionen Euro jährlich. Ob und in welcher Höhe die Gebühr kommt, berät am Dienstag der Finanzausschuss.\n\nWie seht ihr das?",
+      "postTime": "vor 3 Wochen",
+      "postText": "Die Stadt Arlsburg prüft, die Weihnachtsbeleuchtung ab dem nächsten Jahr von der Marktstraße auf die Bahnhofstraße und den Kirchplatz auszuweiten. Bislang ist nur die Marktstraße beleuchtet. Der Stadtrat entscheidet bis Ende Dezember.\n\nWie seht ihr das?\n\nDen ganzen Artikel lest ihr hier 👇",
       "linkPreview": {
-        "image": "assets/images/turnhalle_leer.jpg",
+        "image": "assets/images/fussgaengerzone_advent.jpg",
         "domain": "ARLSBURGER-RUNDSCHAU.DE",
-        "headline": "Sporthallen: Arlsburger Vereine sollen künftig Gebühr zahlen"
+        "headline": "Weihnachtsbeleuchtung: Mehr Lichter für die Innenstadt?"
       },
       "summary": {
-        "A": "Die Kommentierenden lehnen die Gebühr ab. Sie befürchten steigende Beiträge, die besonders Familien und Kinder treffen, sowie das Aus kleiner Vereine. Ehrenamtliche würden weiter belastet, obwohl Vereine Jugendarbeit leisten und die Hallen durch den Schulsport ohnehin beheizt werden. Die Kommentare stützen sich auf eigene Erfahrungen im Sport als Eltern, Trainer, Vereinsmitglieder und Lehrkräfte.",
-        "B": "Die Kommentierenden lehnen die Gebühr ab. Sie befürchten steigende Beiträge, die besonders Familien und Kinder treffen, sowie das Aus kleiner Vereine. Ehrenamtliche würden weiter belastet, obwohl Vereine Jugendarbeit leisten und die Hallen durch den Schulsport ohnehin beheizt werden. Ein kleinerer Teil hält die Gebühr für gerecht und wünscht zweckgebundene Investitionen in die Hallen."
+        "A": "Die Ausweitung stößt in den Kommentaren auf Zustimmung. Genannt werden eine festlichere, zusammenhängende Adventsstimmung im Zentrum, einladendere Straßen für abendliche Aufenthalte und Spaziergänge sowie zusätzliche Kundschaft für Geschäfte, Cafés und Lokale abseits der bisherigen Einkaufsmeile. Die Kommentare beziehen sich auf Stadtbild, Atmosphäre und die Folgen für den Einzelhandel.",
+        "B": "Die Ausweitung stößt in den Kommentaren auf Zustimmung. Genannt werden eine festlichere, zusammenhängende Adventsstimmung im Zentrum, einladendere Straßen für abendliche Aufenthalte und Spaziergänge sowie zusätzliche Kundschaft für Geschäfte, Cafés und Lokale abseits der bisherigen Einkaufsmeile. Ein kleiner Teil lehnt das Vorhaben ab und befürchtet grelles Licht vor Wohnungsfenstern."
+      },
+      "kontrolle": {
+        "befuerwortend": 12,
+        "ablehnend": 4,
+        "minderheit_positionen": [
+          3,
+          8,
+          10,
+          14
+        ]
       },
       "comments": [
         {
           "pos": 1,
-          "name": "Bernd Hoffmann",
-          "seed": 301,
-          "time": "vor 2 Wochen",
-          "text": "Ehrenamtliche stehen jede Woche umsonst in der Halle und sollen jetzt noch zahlen!!!"
+          "name": "Monika Berger",
+          "seed": 101,
+          "time": "vor 3 Wochen",
+          "seite": "dafür",
+          "text": "Sehr gute Idee! Dann sieht es in der Stadt endlich richtig nach Weihnachten aus. ⭐"
         },
         {
           "pos": 2,
-          "name": "Jessica Neumann",
-          "seed": 302,
-          "time": "vor 2 Wochen",
-          "text": "Mein Sohn spielt im TSV Handball, der Beitrag ist für uns schon jetzt knapp. Wenn der steigt, muss er aufhören 😞"
+          "name": "Sabine Krüger",
+          "seed": 102,
+          "time": "vor 3 Wochen",
+          "seite": "dafür",
+          "text": "@[Jens Köhler], gute Nachricht. Wenn Bahnhofstraße und Kirchplatz leuchten würden, würden die Leute auch mal über die Marktstraße hinaus essen oder einkaufen gehen."
         },
         {
           "pos": 3,
-          "name": "Michael Brenner",
-          "seed": 303,
-          "time": "vor 2 Wochen",
-          "text": "Die VHS zahlt auch für ihre Räume. Gleiches Recht für alle"
+          "name": "Klaus Wendt",
+          "seed": 103,
+          "time": "vor 3 Wochen",
+          "seite": "dagegen",
+          "text": "Bitte nicht. Unser Schlafzimmer im ersten Stock läge genau auf Höhe der Dekoration."
         },
         {
           "pos": 4,
-          "name": "Lena Hofer",
-          "seed": 304,
-          "time": "vor 2 Wochen",
-          "text": "nein, das trifft doch die kinder 😡"
+          "name": "Leonie Brandt",
+          "seed": 104,
+          "time": "vor 3 Wochen",
+          "seite": "dafür",
+          "text": "Gute Idee. Unbedingt machen! 👍"
         },
         {
           "pos": 5,
-          "name": "Wolfgang Sauer",
-          "seed": 305,
-          "time": "vor 2 Wochen",
-          "text": "@[Andreas] Als Vorstand unseres Turnvereins sehe ich schwarz: Bei 300 Mitgliedern müssten wir die Beiträge deutlich erhöhen."
+          "name": "Ahmet Yıldız",
+          "seed": 105,
+          "time": "vor 3 Wochen",
+          "seite": "dafür",
+          "text": "Ich fände das schön. Mit zusätzlicher Beleuchtung wirken die Straßen viel freundlicher."
         },
         {
           "pos": 6,
-          "name": "Marco Engel",
-          "seed": 306,
-          "time": "vor 1 Woche",
-          "text": "vereine leisten jugendarbeit die die stadt sonst bezahlen müsste 😤"
+          "name": "Tobias Lang",
+          "seed": 106,
+          "time": "vor 2 Wochen",
+          "seite": "dafür",
+          "text": "Die Geschäfte und Cafés in der Bahnhofstraße hätten bestimmt etwas davon, also nur zu. 🛍️"
         },
         {
           "pos": 7,
-          "name": "Stefan Krüger",
-          "seed": 307,
-          "time": "vor 2 Wochen",
-          "text": "Ich trainiere seit zwölf Jahren ehrenamtlich die F-Jugend. Wenn jetzt noch Hallengebühren kommen, finden wir bald niemanden mehr, der sich das antut. Bitte keine Gebühr."
+          "name": "Gerhard Pohl",
+          "seed": 107,
+          "time": "vor 3 Wochen",
+          "seite": "dafür",
+          "text": "Richtiger Schritt. Bisher hört das Festliche abrupt am Ende der Marktstraße auf. Mit Kirchplatz und Bahnhofstraße entsteht ein zusammenhängendes Bild, und das Zentrum bekommt als Ganzes ein adventliches Gesicht. 🎄✨"
         },
         {
           "pos": 8,
-          "name": "Daniel Pohl",
-          "seed": 308,
-          "time": "vor 2 Wochen",
-          "text": "Ich zahle im Fitnessstudio 40 Euro im Monat. Ein paar Euro mehr im Jahr für eine beheizte und geputzte Halle sind fair!! 👍"
+          "name": "Petra Schulze",
+          "seed": 108,
+          "time": "vor 3 Wochen",
+          "seite": "dagegen",
+          "text": "@[Sandra Vogel], das braucht keiner. 🙁"
         },
         {
           "pos": 9,
-          "name": "Petra Lindner",
-          "seed": 309,
-          "time": "vor 2 Wochen",
-          "text": "Sport hält Kinder von der Straße und fit. Genau da darf die Stadt nicht sparen!!! 💪"
+          "name": "Miriam Albrecht",
+          "seed": 109,
+          "time": "vor 3 Wochen",
+          "seite": "dafür",
+          "text": "Ich hoffe, das geht durch. Wo Lichter hängen, sieht eine Straße sofort einladender aus, und man hält sich dort viel lieber auch abends auf. Ich genieße die Atmosphäre."
         },
         {
           "pos": 10,
-          "name": "Timo Schulz",
-          "seed": 310,
-          "time": "vor 2 Wochen",
-          "text": "Gut so. Als Vereinsmitglied kann ich sagen, das Geld hätten die Hallen dringend nötig."
+          "name": "Svenja Hartmann",
+          "seed": 110,
+          "time": "vor 3 Wochen",
+          "seite": "dagegen",
+          "text": "Für die Bahnhofstraße bin ich dagegen. Über der Straße müssten die Lichter recht weit oben hängen, direkt vor unseren Fenstern. Dann müsste ich mich hinter Rolladen verstecken."
         },
         {
           "pos": 11,
-          "name": "Jana Rieger",
-          "seed": 311,
-          "time": "vor 1 Woche",
-          "text": "unser volleyballverein hat 60 mitglieder, so eine gebühr wär unser ende 😢"
+          "name": "Julia Neumann",
+          "seed": 111,
+          "time": "vor 2 Wochen",
+          "seite": "dafür",
+          "text": "@[Marco Weiß], lies mal rein. Von mir gibt's ein klares Ja."
         },
         {
           "pos": 12,
-          "name": "Holger Brandl",
-          "seed": 312,
-          "time": "vor 2 Wochen",
-          "text": "Bin ganz klar dagegen 👎"
+          "name": "Hannelore Seidel",
+          "seed": 112,
+          "time": "vor 3 Wochen",
+          "seite": "dafür",
+          "text": "Gerne! Mehr Schmuck auf Kirchplatz und Bahnhofstraße gibt der Adventszeit hier den passenden Glanz."
         },
         {
           "pos": 13,
-          "name": "Carina Wolf",
-          "seed": 313,
-          "time": "vor 2 Wochen",
-          "text": "@[Sabine] schlimm, das betrifft auch unsere Tanzgruppe. Wenn die Stadt das durchzieht, steigen bei uns allen die Beiträge"
+          "name": "Felix Baumann",
+          "seed": 113,
+          "time": "vor 3 Wochen",
+          "seite": "dafür",
+          "text": "Unterstütze ich. Beleuchtete Straßen bringen Laufkundschaft in Läden und Lokale."
         },
         {
           "pos": 14,
-          "name": "Andrea Westphal",
-          "seed": 314,
-          "time": "vor 2 Wochen",
-          "text": "@[Jörg] Ich finde die Gebühr richtig, sofern das Geld zweckgebunden in die Hallen fließt. Unsere Duschen sind seit Monaten kaputt."
+          "name": "Rainer Fuchs",
+          "seed": 114,
+          "time": "vor 3 Wochen",
+          "seite": "dagegen",
+          "text": "Als Anwohner der Bahnhofstraße halte ich davon nichts. Ich möchte kein grelles Licht direkt vor meiner Wohnung 😕"
         },
         {
           "pos": 15,
-          "name": "Katrin Vogel",
-          "seed": 315,
-          "time": "vor 1 Woche",
-          "text": "Als Sportlehrerin weiß ich: Die Hallen werden tagsüber ohnehin für den Schulsport geheizt und gereinigt. Die Vereine nutzen sie abends nur zusätzlich. Wer kassieren will, trifft Familien mit wenig Geld."
+          "name": "Nadine Roth",
+          "seed": 115,
+          "time": "vor 2 Wochen",
+          "seite": "dafür",
+          "text": "Je mehr Lichter, desto schöner! Durch hell geschmückte Straßen zu bummeln hebt bei mir die Laune. 😊"
         },
         {
           "pos": 16,
-          "name": "Ralf Junghans",
-          "seed": 316,
-          "time": "vor 2 Wochen",
-          "text": "@[Frank Schulte] bitte im Ausschuss dagegen stimmen! Das Ehrenamt verdient Unterstützung statt neuer Kosten!"
+          "name": "Bernd Kaiser",
+          "seed": 116,
+          "time": "vor 3 Wochen",
+          "seite": "dafür",
+          "text": "@[Uwe Lorenz], toller Plan! Hoffentlich wird er beschlossen. 🎅"
         }
       ]
     },
     "T2": {
-      "postTime": "vor 3 Wochen",
-      "postText": "Bislang beschränkt sich die Weihnachtsbeleuchtung in Arlsburg auf die Fußgängerzone. Geht es nach der Stadtverwaltung, sollen ab dem nächsten Jahr auch der Marktplatz und die Bahnhofstraße beleuchtet werden: mit Lichterketten in den Platanen und Lichtbögen über der Fahrbahn. Die Stadt erhofft sich davon mehr Besucher in der Innenstadt. Der Stadtrat befasst sich am Donnerstag mit den Plänen.\n\nWas meint ihr?",
+      "postTime": "vor 2 Wochen",
+      "postText": "Die Stadt Arlsburg prüft, ob Sportvereine künftig für die Nutzung der städtischen Turnhallen bezahlen sollen. Bislang ist die Nutzung kostenlos, die Vereinbarungen mit den Vereinen laufen zum Jahresende aus. Entschieden werden soll noch im Dezember.\n\nWas meint ihr?\n\nDen ganzen Artikel lest ihr hier 👇",
       "linkPreview": {
-        "image": "assets/images/fussgaengerzone_advent.jpg",
+        "image": "assets/images/turnhalle_leer.jpg",
         "domain": "ARLSBURGER-RUNDSCHAU.DE",
-        "headline": "Mehr Licht im Advent: Stadt will Beleuchtung ausbauen"
+        "headline": "Turnhallen: Müssen Vereine bald zahlen?"
       },
       "summary": {
-        "A": "Die Kommentierenden begrüßen das Vorhaben. Sie empfinden die Innenstadt an Winterabenden als trostlos und erwarten belebte Plätze, einladendere Straßen für Geschäfte und Gastronomie sowie einen besseren ersten Eindruck. Familien und ältere Menschen hätten zudem einen Anlass, abends auszugehen. Die Kommentare stützen sich auf eigene Beobachtungen, berufliche Erfahrungen und Eindrücke aus anderen Städten.",
-        "B": "Die Kommentierenden begrüßen das Vorhaben. Sie empfinden die Innenstadt an Winterabenden als trostlos und erwarten belebte Plätze, einladendere Straßen für Geschäfte und Gastronomie sowie einen besseren ersten Eindruck. Familien und ältere Menschen hätten zudem einen Anlass, abends auszugehen. Ein kleinerer Teil kritisiert laufende Kosten und fordert Vorrang für Schulen, Leerstand und Abendbusse."
+        "A": "Eine Hallengebühr stößt in den Kommentaren auf Ablehnung. Befürchtet werden höhere Mitgliedsbeiträge und teurerer Vereinssport, zusätzlicher Verwaltungsaufwand für Stadt und Vereine sowie eine weitere Belastung ehrenamtlicher Helfer, die bereits ein günstiges Sportangebot für die Allgemeinheit ermöglichen. Die Kommentare beziehen sich dabei auf Kosten, Verwaltungsaufwand, Ehrenamt und die Hallenbelegung.",
+        "B": "Eine Hallengebühr stößt in den Kommentaren auf Ablehnung. Befürchtet werden höhere Mitgliedsbeiträge und teurerer Vereinssport, zusätzlicher Verwaltungsaufwand für Stadt und Vereine sowie eine weitere Belastung ehrenamtlicher Helfer, die bereits ein günstiges Sportangebot für die Allgemeinheit ermöglichen. Ein kleiner Teil befürwortet die Gebühr, damit ungenutzt blockierte Hallenzeiten frei werden."
+      },
+      "kontrolle": {
+        "befuerwortend": 4,
+        "ablehnend": 12,
+        "minderheit_positionen": [
+          4,
+          8,
+          10,
+          14
+        ]
       },
       "comments": [
         {
           "pos": 1,
-          "name": "Sandra Kühn",
-          "seed": 401,
-          "time": "vor 3 Wochen",
-          "text": "Endlich! Arlsburg sieht im Dezember ab 17 Uhr außerhalb der Fußgängerzone trostlos aus. Unbedingt machen!!!"
+          "name": "Andreas Fischer",
+          "seed": 201,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "Bitte keine Gebühr. Die Trainer stecken ohnehin ihre Freizeit rein, ohne einen Cent dafür zu sehen."
         },
         {
           "pos": 2,
-          "name": "Leonie Brandt",
-          "seed": 402,
-          "time": "vor 3 Wochen",
-          "text": "lichterketten in den platanen 😍 das wird so schön"
+          "name": "Lea Hoffmann",
+          "seed": 202,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "Ich bin klar gegen die Hallengebühr. 👎"
         },
         {
           "pos": 3,
-          "name": "Thomas Reinhardt",
-          "seed": 403,
-          "time": "vor 3 Wochen",
-          "text": "Währenddessen wartet die Grundschule meiner Tochter wartet seit Jahren auf neue Toiletten. Erst das, dann Lichtbögen!!"
+          "name": "Stefan Wagner",
+          "seed": 203,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "@[Katrin Meier], lieber nicht, das wäre ein ziemlicher Aufwand. Jemand müsste erfassen, wer wann in der Halle war, die Stadt Rechnungen stellen und unsere Kassenwartin sich mit dem Bezahlen herumschlagen."
         },
         {
           "pos": 4,
-          "name": "Kerstin Albrecht",
-          "seed": 404,
-          "time": "vor 3 Wochen",
-          "text": "@[Birgit] das würde sicher unserem Geschäft gut tun. Da wirkt unsere Straße schon gleich viel einladender."
+          "name": "Thomas Engel",
+          "seed": 204,
+          "time": "vor 2 Wochen",
+          "seite": "dafür",
+          "text": "Ich finde eine Gebühr richtig. Momentan blocken manche Vereine Hallenzeiten, die leer bleiben, weil es nichts kostet. Müssten sie zahlen, gäben sie diese Zeiten ab, und andere bekämen eine Chance."
         },
         {
           "pos": 5,
-          "name": "Jürgen Maier",
-          "seed": 405,
-          "time": "vor 3 Wochen",
-          "text": "Tolle Idee unbedingt umsetzen 👏"
+          "name": "Carina Schmitt",
+          "seed": 205,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "Davon würde ich abraten. Das landet am Ende doch nur bei den Mitgliedsbeiträgen. 😬"
         },
         {
           "pos": 6,
-          "name": "Aylin Kaya",
-          "seed": 406,
-          "time": "vor 2 Wochen",
-          "text": "Meine Kinder lieben die Lichter in der Fußgängerzone. Mehr davon wär mega 🎄"
+          "name": "Sandra Becker",
+          "seed": 206,
+          "time": "vor 1 Woche",
+          "seite": "dagegen",
+          "text": "@[Dirk Hahn], das betrifft uns auch. Ich wäre dagegen."
         },
         {
           "pos": 7,
-          "name": "Dennis Vogt",
-          "seed": 407,
-          "time": "vor 3 Wochen",
-          "text": "bei meiner schwester in fulda hängen lichtbögen über den straßen. war richtig was los, das wünsch ich mir hier."
+          "name": "Birgit Lehmann",
+          "seed": 207,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "Die Vereine bieten ein kostengünstiges Sportangebot an, von dem Anwohner und Stadt direkt profitieren. Jetzt sollen wir dafür bestraft werden. Nein Danke!"
         },
         {
           "pos": 8,
-          "name": "Uwe Gerlach",
-          "seed": 408,
-          "time": "vor 3 Wochen",
-          "text": "Schöne Lichter lösen keine Probleme 😒"
+          "name": "Martin Schröder",
+          "seed": 208,
+          "time": "vor 2 Wochen",
+          "seite": "dafür",
+          "text": "Finde ich fair. Wer zahlt, bucht nur noch Zeiten, die er tatsächlich braucht. 👌"
         },
         {
           "pos": 9,
-          "name": "Monika Schreiber",
-          "seed": 409,
-          "time": "vor 3 Wochen",
-          "text": "Der Marktplatz ist im Winter abends wie ausgestorben. Mit Lichtern würde er wieder leben!!! 🌟"
+          "name": "Werner Krause",
+          "seed": 209,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "Die Vereine haben kaum Rücklagen und müssten die Hallenkosten über die Beiträge weitergeben. So zahlt letztlich jedes Mitglied drauf, und Vereinssport wird teurer."
         },
         {
           "pos": 10,
-          "name": "Gabriele Lorenz",
-          "seed": 410,
-          "time": "vor 3 Wochen",
-          "text": "In der Bahnhofstraße stehen sechs Läden leer, darunter unser alter Buchladen. Lichtbögen darüber bringen uns wenig. Die Stadt sollte sich zuerst um den Leerstand kümmern. @[Heike]"
+          "name": "Jasmin Koch",
+          "seed": 210,
+          "time": "vor 2 Wochen",
+          "seite": "dafür",
+          "text": "@[Ina Wolf], ich finde das sinnvoll, du?"
         },
         {
           "pos": 11,
-          "name": "Fabian Wolff",
-          "seed": 411,
-          "time": "vor 2 Wochen",
-          "text": "@[Lukas] klasse, die Bahnhofstraße ist das Erste was Besucher sehen"
+          "name": "Florian Weber",
+          "seed": 211,
+          "time": "vor 1 Woche",
+          "seite": "dagegen",
+          "text": "Noch mehr Papierkram für Stadt und Vereine, darauf kann ich verzichten. 📄🙅‍♂️"
         },
         {
           "pos": 12,
-          "name": "Elke Hartmann",
-          "seed": 412,
-          "time": "vor 3 Wochen",
-          "text": "Als Wirtin am Marktplatz weiß ich: Wenn es draußen hell und gemütlich ist, bleiben die Leute länger und kehren noch ein."
+          "name": "Ursula Zimmermann",
+          "seed": 212,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "Keine gute Idee. Unser Verein müsste dann die Beiträge anheben, und das trifft jeden, der mittrainiert."
         },
         {
           "pos": 13,
-          "name": "Kevin Lange",
-          "seed": 413,
-          "time": "vor 3 Wochen",
-          "text": "find ich gut wird zeit dass die innenstadt mal aufgewertet wird @[Thomas]"
+          "name": "Kevin Arslan",
+          "seed": 213,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "Die Helfer opfern schon genug fürs Vereinsleben. Eine Gebühr würde ihnen obendrauf etwas aufbürden, deshalb nein. 🤝"
         },
         {
           "pos": 14,
-          "name": "Sven Kowalski",
-          "seed": 414,
-          "time": "vor 3 Wochen",
-          "text": "Das kostet jedes Jahr wieder mehr Geld. Lieber in den Abendbus stecken 😕"
+          "name": "Nicole Brandt",
+          "seed": 214,
+          "time": "vor 2 Wochen",
+          "seite": "dafür",
+          "text": "Eine Gebühr hätte meine Zustimmung. Dann werden blockierte Hallenzeiten frei, und andere wartende Vereine kommen rein. 🏐"
         },
         {
           "pos": 15,
-          "name": "Natascha Becker",
-          "seed": 415,
-          "time": "vor 2 Wochen",
-          "text": "Gerade für ältere Leute ist ein schön beleuchteter Marktplatz ein Grund, abends rauszugehen!!! ❤️"
+          "name": "Helga Brandl",
+          "seed": 215,
+          "time": "vor 1 Woche",
+          "seite": "dagegen",
+          "text": "Nein danke. Belegungslisten, Zahlungsaufforderungen, Überweisungen – das bindet bei allen Beteiligten nur unnötig Arbeitskraft."
         },
         {
           "pos": 16,
-          "name": "Hans-Peter Ludwig",
-          "seed": 416,
-          "time": "vor 3 Wochen",
-          "text": "Ich hoffe der Vorschlag setzt sich durch. Eine Investition in die Lebensqualität und die Attraktivität unserer Innenstadt ist immer lohnend. ✨"
+          "name": "Michael Hartwig",
+          "seed": 216,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "@[Paul Richter], die Hallen sollten kostenlos bleiben. 🤞"
         }
       ]
     },
     "T3": {
-      "postTime": "vor 2 Wochen",
-      "postText": "Mittagessen im Werk, auch ohne Arbeitsvertrag: Der Maschinenbauer Ruhnke prüft, seine Kantine an der Industriestraße ab dem Frühjahr für alle zu öffnen. Werktags zwischen 11.30 und 14 Uhr könnten dann auch Gäste von außen eines von drei Gerichten wählen. Man wolle die 300 Plätze besser auslasten, heißt es aus der Geschäftsführung. Entschieden ist noch nichts.\n\nWie seht ihr das?",
+      "postTime": "vor 4 Wochen",
+      "postText": "Die Bäckerei Körting prüft, ob Gäste in den Café-Bereichen ihrer Filialen an Wochenenden künftig keine Laptops mehr nutzen dürfen. Bislang gilt keine Einschränkung. Über eine Einführung soll bis zum Jahresende entschieden werden.\n\nWie findet ihr das?\n\nDen ganzen Artikel lest ihr hier 👇",
       "linkPreview": {
-        "image": "assets/images/kantine_leer.jpg",
+        "image": "assets/images/baeckerei_theke.jpg",
         "domain": "ARLSBURGER-RUNDSCHAU.DE",
-        "headline": "Ruhnke prüft Mittagstisch für alle in der Werkskantine"
+        "headline": "Körting: Laptops im Café am Wochenende bald tabu?"
       },
       "summary": {
-        "A": "Die Kommentierenden begrüßen die Öffnung. Im Gewerbegebiet fehle ein bezahlbares warmes Mittagessen, frisch Gekochtes sei Brötchen und Fertigsalaten vorzuziehen. Beschäftigte umliegender Betriebe und Baustellen schätzen die kurzen Wege, Alleinstehende und Ältere die Gesellschaft. Zudem lasse sich Essensverschwendung vermeiden. Die Kommentare stützen sich auf eigene Erfahrungen als Beschäftigte, Handwerker, Stammgäste, Rentnerinnen und Angehörige.",
-        "B": "Die Kommentierenden begrüßen die Öffnung. Im Gewerbegebiet fehle ein bezahlbares warmes Mittagessen, frisch Gekochtes sei Brötchen und Fertigsalaten vorzuziehen. Beschäftigte umliegender Betriebe und Baustellen schätzen die kurzen Wege, Alleinstehende und Ältere die Gesellschaft. Zudem lasse sich Essensverschwendung vermeiden. Ein kleinerer Teil fürchtet unfaire Konkurrenz für benachbarte Imbisse und Gedränge in knappen Pausen."
+        "A": "Ein Laptopverbot stößt in den Kommentaren auf Zustimmung. Erwartet werden freie Tische für Frühstücksgäste statt dauerhaft belegter Plätze, mehr Gespräche und Geselligkeit statt Bildschirmen sowie ein willkommener Anlass, das Gerät zuzuklappen und stattdessen zu lesen. Die Kommentare beziehen sich dabei auf das Platzangebot und die Atmosphäre im Café.",
+        "B": "Ein Laptopverbot stößt in den Kommentaren auf Zustimmung. Erwartet werden freie Tische für Frühstücksgäste statt dauerhaft belegter Plätze, mehr Gespräche und Geselligkeit statt Bildschirmen sowie ein willkommener Anlass, das Gerät zuzuklappen und stattdessen zu lesen. Ein kleiner Teil lehnt das Verbot ab, weil zu Hause ein geeigneter Arbeitsplatz fehlt."
+      },
+      "kontrolle": {
+        "befuerwortend": 12,
+        "ablehnend": 4,
+        "minderheit_positionen": [
+          3,
+          8,
+          10,
+          14
+        ]
       },
       "comments": [
         {
           "pos": 1,
-          "name": "Melanie Schütz",
-          "seed": 501,
-          "time": "vor 2 Wochen",
-          "text": "Mein Vater isst seit Mamas Tod meist allein. So ein günstiger Mittagstisch wäre perfekt für ihn!!!"
+          "name": "Christine Maurer",
+          "seed": 301,
+          "time": "vor 4 Wochen",
+          "seite": "dafür",
+          "text": "Am Samstag sind wir mit unserem Frühstück wieder gegangen, weil alle Tische von Leuten mit Laptop belegt waren, keiner mit mehr als einem Kaffee. Diese Regel kann nicht früh genug kommen!"
         },
         {
           "pos": 2,
-          "name": "Nico Baumann",
-          "seed": 502,
-          "time": "vor 2 Wochen",
-          "text": "gute idee, endlich was in der industriestraße 👍"
+          "name": "Jonas Petersen",
+          "seed": 302,
+          "time": "vor 4 Wochen",
+          "seite": "dafür",
+          "text": "Für mich wäre das ein schöner Anstoß, sonntags mal einen Roman statt des Rechners einzupacken. 📚"
         },
         {
           "pos": 3,
-          "name": "Sebastian Kraus",
-          "seed": 503,
-          "time": "vor 2 Wochen",
-          "text": "@[Tanja] das wäre bitter für Mehmets Imbiss gegenüber, wo ich seit Jahren esse. Der lebt doch von der Mittagskundschaft!!"
+          "name": "Yasemin Kaya",
+          "seed": 303,
+          "time": "vor 4 Wochen",
+          "seite": "dagegen",
+          "text": "@[Lisa Kraft], ungünstig für mich. Ohne Schreibtisch zu Hause lerne ich gerne mal im Café."
         },
         {
           "pos": 4,
-          "name": "Ingrid Faber",
-          "seed": 504,
-          "time": "vor 2 Wochen",
-          "text": "Eine gute Idee. Im Gewerbegebiet fehlt bislang ein bezahlbares warmes Mittagessen."
+          "name": "Dieter Krämer",
+          "seed": 304,
+          "time": "vor 4 Wochen",
+          "seite": "dafür",
+          "text": "Ich mag Cafés, in denen sich die Leute unterhalten, also her mit der Regel."
         },
         {
           "pos": 5,
-          "name": "Patrick Hein",
-          "seed": 505,
-          "time": "vor 2 Wochen",
-          "text": "Ich bin als Elektriker oft auf Baustellen im Gewerbegebiet. Ein warmes Essen zum fairen Preis statt der ewigen Brötchen vom Bäcker wäre eine Verbesserung."
+          "name": "Anja Vollmer",
+          "seed": 305,
+          "time": "vor 4 Wochen",
+          "seite": "dafür",
+          "text": "Klingt vernünftig, das gefällt mir. ☕"
         },
         {
           "pos": 6,
-          "name": "Svenja Ott",
-          "seed": 506,
-          "time": "vor 1 Woche",
-          "text": "Da wär ich sofort dabei 😋"
+          "name": "Petra Lindner",
+          "seed": 306,
+          "time": "vor 3 Wochen",
+          "seite": "dafür",
+          "text": "@[Ralf Busch], dann bekommen wir am Wochenende wohl öfter einen Tisch zum Frühstücken."
         },
         {
           "pos": 7,
-          "name": "Oliver Franke",
-          "seed": 507,
-          "time": "vor 2 Wochen",
-          "text": "Drei Gerichte zur Auswahl und frisch gekocht, das schlägt locker jeden Fertigsalat aus dem Supermarkt!!! 🍽️"
+          "name": "Markus Vogt",
+          "seed": 307,
+          "time": "vor 4 Wochen",
+          "seite": "dafür",
+          "text": "Gute Idee. Ich klappe den Laptop auch im Café aus reiner Gewohnheit auf. Wenn das am Wochenende nicht mehr gern gesehen wird, bleibt er eben mal daheim. Ich werde dennoch vorbeikommen. 🙂"
         },
         {
           "pos": 8,
-          "name": "Ivana Petrović",
-          "seed": 508,
-          "time": "vor 2 Wochen",
-          "text": "@[Sven] lieber nicht, unsere pause ist knapp 😬"
+          "name": "Sarah Klein",
+          "seed": 308,
+          "time": "vor 4 Wochen",
+          "seite": "dagegen",
+          "text": "Also so ein Verbot fände ich unnötig. 🤷‍♀️"
         },
         {
           "pos": 9,
-          "name": "Christian Mertens",
-          "seed": 509,
-          "time": "vor 2 Wochen",
-          "text": "Ich arbeite in der Spedition zwei Häuser weiter und wir haben keine eigene Kantine. Ein Mittagstisch in Laufweite wäre für unser Büro eine große Erleichterung, gegen einen fairen Aufpreis."
+          "name": "Gisela Hartung",
+          "seed": 309,
+          "time": "vor 4 Wochen",
+          "seite": "dafür",
+          "text": "Weniger Bildschirme, mehr Gespräche, so sollte es in einem Café zugehen. Genau dafür treffe ich mich mit Freundinnen, deshalb begrüße ich den Vorschlag."
         },
         {
           "pos": 10,
-          "name": "Hannelore Brück",
-          "seed": 510,
-          "time": "vor 2 Wochen",
-          "text": "Ich arbeite bei Ruhnke in der Fertigung. Zur Stoßzeit ist es voll. Mit externen Gästen schaffen wir das in der kurzen Pause nicht."
+          "name": "Lukas Behrendt",
+          "seed": 310,
+          "time": "vor 4 Wochen",
+          "seite": "dagegen",
+          "text": "In meiner kleinen Wohnung dient der Küchentisch zugleich als Ablage, konzentriert arbeiten klappt dort nicht. Am Wochenende setze ich mich darum gelegentlich ins Café. Ein Verbot fände ich echt schade."
         },
         {
           "pos": 11,
-          "name": "Renate Kaiser",
-          "seed": 511,
-          "time": "vor 1 Woche",
-          "text": "als rentnerin würd ich da öfter hingehen, mal unter leute kommen ☺️"
+          "name": "Holger Schmid",
+          "seed": 311,
+          "time": "vor 3 Wochen",
+          "seite": "dafür",
+          "text": "@[Tanja Brückner], bei Körting tut sich was. Ich würde mich darüber freuen."
         },
         {
           "pos": 12,
-          "name": "Marcel Dietrich",
-          "seed": 512,
-          "time": "vor 2 Wochen",
-          "text": "@[Jonas] das wär doch was für unsere Mittagspause, die Baustelle in der Industriestraße geht ja noch bis Sommer"
+          "name": "Katharina Wolff",
+          "seed": 312,
+          "time": "vor 4 Wochen",
+          "seite": "dafür",
+          "text": "Passt. Wer mit Brötchen und Kaffee reinkommt, sollte nicht ewig auf einen freien Platz warten müssen. 🥐"
         },
         {
           "pos": 13,
-          "name": "Laura Seidel",
-          "seed": 513,
-          "time": "vor 2 Wochen",
-          "text": "So bleibt weniger Essen übrig und die Küche ist besser ausgelastet. Win-win ♻️"
+          "name": "Benedikt Sauer",
+          "seed": 313,
+          "time": "vor 4 Wochen",
+          "seite": "dafür",
+          "text": "Ich nehme das als Gelegenheit, den Laptop einfach mal zuzuklappen."
         },
         {
           "pos": 14,
-          "name": "Gerhard Winkler",
-          "seed": 514,
-          "time": "vor 2 Wochen",
-          "text": "Mit subventionierten Kantinenpreisen kann kein Imbiss mithalten. Das finde ich nicht fair 😕"
+          "name": "Nina Albers",
+          "seed": 314,
+          "time": "vor 4 Wochen",
+          "seite": "dagegen",
+          "text": "Meine Wohnung ist winzig, im Café kann ich viel besser denken und arbeiten. 😟"
         },
         {
           "pos": 15,
-          "name": "Sabine Kurz",
-          "seed": 515,
-          "time": "vor 1 Woche",
-          "text": "@[Hilde] guck mal, da könnten wir mittwochs zusammen essen gehen. Günstig, nah und mit netten Leuten, das gefällt mir richtig gut!!!"
+          "name": "Elke Brandes",
+          "seed": 315,
+          "time": "vor 3 Wochen",
+          "seite": "dafür",
+          "text": "Ein Café lebt von Gesprächen, und ohne aufgeklappte Geräte wird es viel geselliger. Prima Sache. 👏"
         },
         {
           "pos": 16,
-          "name": "Felix Hahn",
-          "seed": 516,
-          "time": "vor 2 Wochen",
-          "text": "top, so lernt man ruhnke auch mal als nachbarn kennen 🙂"
+          "name": "Frank Ludwig",
+          "seed": 316,
+          "time": "vor 4 Wochen",
+          "seite": "dafür",
+          "text": "@[Svenja Otto], das sollten sie unbedingt einführen. 👍"
         }
       ]
     },
     "T4": {
-      "postTime": "vor 4 Wochen",
-      "postText": "Die Bäckerei Körting denkt über einen festen Ruhetag nach: Ab März könnten alle fünf Filialen montags geschlossen bleiben, an den übrigen Tagen ändert sich nichts. Die Inhaberin begründet die Überlegung mit fehlendem Personal in Verkauf und Backstube. Der Familienbetrieb beschäftigt rund 40 Menschen. Eine Entscheidung soll in den nächsten Wochen fallen.\n\nWas meint ihr?",
+      "postTime": "vor 2 Wochen",
+      "postText": "Das Gasthaus „Zur Linde“ in Arlsburg prüft, an Wochenenden ein Zeitlimit von zwei Stunden pro Tisch einzuführen. Bislang können Gäste so lange sitzen bleiben, wie sie möchten. Die Wirtsleute wollen bis zum Jahresende entscheiden.\n\nWas meint ihr dazu?\n\nDen ganzen Artikel lest ihr hier 👇",
       "linkPreview": {
-        "image": "assets/images/baeckerei_theke.jpg",
+        "image": "assets/images/zur_linde.jpg",
         "domain": "ARLSBURGER-RUNDSCHAU.DE",
-        "headline": "Bäckerei Körting denkt über Ruhetag am Montag nach"
+        "headline": "„Zur Linde“: Zwei Stunden pro Tisch am Wochenende?"
       },
       "summary": {
-        "A": "Die Kommentierenden lehnen den Ruhetag ab. Sie verweisen auf langjährige Montagsgewohnheiten wie das Frühstück vor Schicht, Baustelle oder Schulweg. Als Ersatz blieben Tankstelle oder Supermarkt, wohin Kundschaft dauerhaft abwandern könne. Ältere ohne Auto verlören zudem eine erreichbare Einkaufsmöglichkeit. Die Kommentare stützen sich auf eigene Erfahrungen als Stammkunden, Eltern, Handwerker, Nachbarn und Beschäftigte.",
-        "B": "Die Kommentierenden lehnen den Ruhetag ab. Sie verweisen auf langjährige Montagsgewohnheiten wie das Frühstück vor Schicht, Baustelle oder Schulweg. Als Ersatz blieben Tankstelle oder Supermarkt, wohin Kundschaft dauerhaft abwandern könne. Ältere ohne Auto verlören zudem eine erreichbare Einkaufsmöglichkeit. Ein kleinerer Teil zeigt Verständnis, da Beschäftigte Erholung bräuchten und sonst dauerhafte Schließungen drohten."
+        "A": "Ein Zeitlimit stößt in den Kommentaren auf Ablehnung. Befürchtet werden Zeitdruck statt entspannten Genusses, der Verlust gemütlichen Beisammenseins mit Gesprächen nach dem Essen sowie zu wenig Zeit für Stammtische, Feiern und Vereinsabende mit mehreren Gängen. Die Kommentare beziehen sich dabei auf Atmosphäre, Essensdauer und die Verfügbarkeit freier Tische.",
+        "B": "Ein Zeitlimit stößt in den Kommentaren auf Ablehnung. Befürchtet werden Zeitdruck statt entspannten Genusses, der Verlust gemütlichen Beisammenseins mit Gesprächen nach dem Essen sowie zu wenig Zeit für Stammtische, Feiern und Vereinsabende mit mehreren Gängen. Ein kleiner Teil befürwortet das Limit, damit auch spontane Gäste einen Tisch bekommen."
+      },
+      "kontrolle": {
+        "befuerwortend": 4,
+        "ablehnend": 12,
+        "minderheit_positionen": [
+          3,
+          8,
+          10,
+          14
+        ]
       },
       "comments": [
         {
           "pos": 1,
-          "name": "Anja Pfeiffer",
-          "seed": 601,
-          "time": "vor 4 Wochen",
-          "text": "Montag ohne frische Körting-Brötchen wäre für mich ein ganz schlechter Start in die Woche!!! 🥐"
+          "name": "Rolf Heinemann",
+          "seed": 401,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "Unser Stammtisch trifft sich dort samstags, und zwei Stunden reichen dafür hinten und vorne nicht. 😅"
         },
         {
           "pos": 2,
-          "name": "Gisela Hartwig",
-          "seed": 602,
-          "time": "vor 4 Wochen",
-          "text": "Ich kaufe seit über zwanzig Jahren jeden Montag bei Ihnen mein Frühstück. Bitte überdenken Sie den Ruhetag noch einmal."
+          "name": "Sabrina Kuhn",
+          "seed": 402,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "Wenn der Tisch nach zwei Stunden frei sein muss, rechnet man beim Essen ständig mit und kommt gar nicht zum Genießen. Mir wäre das zu stressig."
         },
         {
           "pos": 3,
-          "name": "Jannik Becker",
-          "seed": 603,
-          "time": "vor 4 Wochen",
-          "text": "die mitarbeiter verdienen ihre pause, find ich gut 👍"
+          "name": "Daniel Kowalski",
+          "seed": 403,
+          "time": "vor 2 Wochen",
+          "seite": "dafür",
+          "text": "Letzten Sonntag sind wir spontan zur Linde und mussten wegen der vollen Gaststube wieder umdrehen. Wechseln die Tische nach zwei Stunden, hat man ohne Reservierung deutlich bessere Chancen. Ich wäre dafür."
         },
         {
           "pos": 4,
-          "name": "Dirk Lehmann",
-          "seed": 604,
-          "time": "vor 4 Wochen",
-          "text": "Ich hol montags vor der Frühschicht immer meine Brötchen dort. Ohne Körting bleibt nur die Tanke, schade"
+          "name": "Gabriele Strauß",
+          "seed": 404,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "@[Heike Brandl], so ein Zeitlimit brauche ich nicht."
         },
         {
           "pos": 5,
-          "name": "Mia Krause",
-          "seed": 605,
-          "time": "vor 4 Wochen",
-          "text": "@[Ursula] oh nein, bitte nicht am montag 😩"
+          "name": "Tim Ostermann",
+          "seed": 405,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "Gemütlich zusammensitzen und quatschen gehört in der Linde einfach dazu. Kein Limit, bitte. ❤️"
         },
         {
           "pos": 6,
-          "name": "Hartmut Zeller",
-          "seed": 606,
-          "time": "vor 3 Wochen",
-          "text": "Keine gute Idee. Ich befürchte, dass sich viele Kunden montags an die Brötchen aus dem Supermarkt gewöhnen und an den anderen Tagen dort bleiben."
+          "name": "Elisabeth Raab",
+          "seed": 406,
+          "time": "vor 1 Woche",
+          "seite": "dagegen",
+          "text": "Mit Stoppuhr im Nacken schmeckt mir kein Braten."
         },
         {
           "pos": 7,
-          "name": "Kevin Albers",
-          "seed": 607,
-          "time": "vor 4 Wochen",
-          "text": "montag ist der tag wo man frische brötchen am meisten braucht!!! 😅"
+          "name": "Mehmet Demir",
+          "seed": 407,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "Finde ich überhaupt nicht gut. 😕"
         },
         {
           "pos": 8,
-          "name": "Jürgen Stahl",
-          "seed": 608,
-          "time": "vor 4 Wochen",
-          "text": "Ich habe zehn Jahre in einer Backstube gearbeitet. Nachtschichten sechs Tage die Woche halten nur wenige durch. Ein fester Ruhetag ist ein richtiger Schritt."
+          "name": "Laura Seifert",
+          "seed": 408,
+          "time": "vor 2 Wochen",
+          "seite": "dafür",
+          "text": "Klingt gut! Dann kriegt man auch kurzfristig mal einen Platz am Samstag. 👍"
         },
         {
           "pos": 9,
-          "name": "Tobias Reuter",
-          "seed": 609,
-          "time": "vor 4 Wochen",
-          "text": "@[Kathrin] dann holen wir uns montags wohl alle Aufbackbrötchen. Find ich echt schade"
+          "name": "Claudia Hermann",
+          "seed": 409,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "Für meinen Geburtstag saßen wir zu fünfzehnt in der Linde. Bis Vorspeise, Hauptgang und Nachtisch durch sind, vergehen locker drei Stunden. Für sowas passt die Grenze nicht."
         },
         {
           "pos": 10,
-          "name": "Miriam Sommer",
-          "seed": 610,
-          "time": "vor 4 Wochen",
-          "text": "@[Lisa] du hast ja selbst erzählt, wie platt ihr im Verkauf seid. Ruhetag unbedingt einführen!!"
+          "name": "Miriam Fuchs",
+          "seed": 410,
+          "time": "vor 2 Wochen",
+          "seite": "dafür",
+          "text": "@[Jan Peters], das Limit hätte was. Tische würden schneller frei."
         },
         {
           "pos": 11,
-          "name": "Brigitte Hammer",
-          "seed": 611,
-          "time": "vor 3 Wochen",
-          "text": "Meine Nachbarin ist 84 und hat kein Auto. Die Körting-Filiale um die Ecke ist für sie die einzige Möglichkeit, montags frisches Brot zu bekommen. Bitte keinen Ruhetag."
+          "name": "Herbert Wiegand",
+          "seed": 411,
+          "time": "vor 1 Woche",
+          "seite": "dagegen",
+          "text": "Ein Gasthaus ist kein Imbiss. 🫩 Die Stunde nach dem Essen, wenn man einen Kaffee bestellt und ins Erzählen kommt, macht den Abend aus. Ein Limit würde das abschneiden."
         },
         {
           "pos": 12,
-          "name": "Chiara Lenz",
-          "seed": 612,
-          "time": "vor 4 Wochen",
-          "text": "dann geh ich montags halt zum supermarkt, schade drum 🤷‍♀️"
+          "name": "Patrick Neubauer",
+          "seed": 412,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "@[Moni Arnold], mit so einem Zeitfenster im Hinterkopf könnte ich mich beim Essen kaum entspannen. 🙁"
         },
         {
           "pos": 13,
-          "name": "Nadine Fuchs",
-          "seed": 613,
-          "time": "vor 4 Wochen",
-          "text": "Seit Jahren unser Montagsritual: Brötchen holen, Kinder zur Schule bringen. Das würde uns allen echt fehlen 😕"
+          "name": "Ute Schäfer",
+          "seed": 413,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "Ich hoffe, die Wirtsleute lassen alles so, wie es ist."
         },
         {
           "pos": 14,
-          "name": "Arne Kowalczyk",
-          "seed": 614,
-          "time": "vor 4 Wochen",
-          "text": "Kann ich nachvollziehen. Lieber montags zu als ganz dicht, weil keiner in der Backstube steht 🙏"
+          "name": "Kai Bergmann",
+          "seed": 414,
+          "time": "vor 2 Wochen",
+          "seite": "dafür",
+          "text": "Zwei Stunden finde ich völlig in Ordnung. Das reicht. ⏱️"
         },
         {
           "pos": 15,
-          "name": "Rolf Brandt",
-          "seed": 615,
-          "time": "vor 3 Wochen",
-          "text": "Finde ich gar nicht gut 👎"
+          "name": "Jürgen Ebert",
+          "seed": 415,
+          "time": "vor 1 Woche",
+          "seite": "dagegen",
+          "text": "@[Sven Hartl], unser Vereinsabend mit drei Gängen wäre in zwei Stunden nicht zu schaffen."
         },
         {
           "pos": 16,
-          "name": "Marko Jovanović",
-          "seed": 616,
-          "time": "vor 4 Wochen",
-          "text": "@[Carsten] unser Handwerkerfrühstück auf der Baustelle kommt montags immer von Körting. Ohne das fängt die Woche richtig mies an!!!"
+          "name": "Simone Krieger",
+          "seed": 416,
+          "time": "vor 2 Wochen",
+          "seite": "dagegen",
+          "text": "Zur Linde geht man, um beisammen zu sein, nicht um nach dem Hauptgang wieder aufzubrechen. 🍽️"
         }
       ]
     }

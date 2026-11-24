@@ -180,7 +180,8 @@ for (const id of caseIds) {
     const cm = data.cases[id].comments;
     const posOk = cm.every((c, i) => c.pos == null || c.pos === i + 1);
     const pro = cm.filter((c) => c.seite === 'dafür'), contra = cm.filter((c) => c.seite === 'dagegen');
-    const minPos = pro.map((c) => c.pos).join(',');
+    // Minderheit = die Seite mit weniger Kommentaren (je nach Fall dafür oder dagegen)
+    const minPos = (pro.length <= contra.length ? pro : contra).map((c) => c.pos).join(',');
     const ok = posOk && pro.length === k.befuerwortend && contra.length === k.ablehnend &&
       minPos === (k.minderheit_positionen || []).join(',');
     if (!ok) failed = true;
