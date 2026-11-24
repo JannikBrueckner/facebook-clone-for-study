@@ -80,3 +80,7 @@ Die iOS-Statusleiste (47 px, Uhrzeit und Icons) entfällt auf Wunsch. Die Seite 
 ## Screenshots auf einem Mac erzeugen (GitHub Actions)
 
 `.github/workflows/screenshots.yml` startet einen macOS-Runner, installiert Playwright und führt `node scripts/screenshot.mjs` aus. Das Ergebnis liegt als Artifact „screenshots“ (Zip) auf der Seite des Laufs. Start über Actions → Screenshots → Run workflow. Auf macOS verwendet Chromium die Systemschrift (SF Pro) und Apple Color Emoji.
+
+## Ausgabeformat JPEG
+
+Die Screenshots werden als JPEG gespeichert (`output/{Fall}_{Name}.jpg`). Das Skript wählt pro Datei die höchste Qualität (95 bis 50), bei der die Datei unter 1 MB (1.000.000 Byte) bleibt, und gibt Größe und Qualität in der Konsole aus. Die Pixelprüfungen (Post und Kommentare in allen Bedingungen identisch) laufen weiter intern auf verlustfreien Aufnahmen. Die JPEGs selbst sind wegen der Kompression nicht bitgenau vergleichbar.

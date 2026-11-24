@@ -1,14 +1,15 @@
 #!/usr/bin/env node
 /* Erzeugt pro Fall fünf Screenshots und prüft sie.
    Aufruf (im Projektordner):  node scripts/screenshot.mjs [--case K22]
-   Ausgabe flach in output/, z. B. output/K22_Post.png
+   Format: JPEG, jede Datei unter 1 MB (Qualität wird automatisch so hoch wie möglich gewählt).
+   Ausgabe flach in output/, z. B. output/K22_Post.jpg
 
    Dateien pro Fall:
-     {id}_Post.png                       Nur Post (ohne Zusammenfassung, ohne Kommentare)
-     {id}_A_Zusammenfassung_Kommentare.png   Zusammenfassung A + Kommentare
-     {id}_B_Zusammenfassung_Kommentare.png   Zusammenfassung B + Kommentare
-     {id}_C1_Kommentare.png              Nur Kommentare (ohne Post, ohne Zusammenfassung)
-     {id}_C2_Post_Zusammenfassung.png    Post mit Zusammenfassung (ohne Kommentare) */
+     {id}_Post.jpg                       Nur Post (ohne Zusammenfassung, ohne Kommentare)
+     {id}_A_Zusammenfassung_Kommentare.jpg   Zusammenfassung A + Kommentare
+     {id}_B_Zusammenfassung_Kommentare.jpg   Zusammenfassung B + Kommentare
+     {id}_C1_Kommentare.jpg              Nur Kommentare (ohne Post, ohne Zusammenfassung)
+     {id}_C2_Post_Zusammenfassung.jpg    Post mit Zusammenfassung (ohne Kommentare) */
 import http from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -28,6 +29,8 @@ const argCase = (() => { const i = process.argv.indexOf('--case'); return i > -1
 // pad: weißer Rand in CSS-Pixeln unter dem Ausschnitt. hide: Bereiche, die unter dem Ausschnitt
 // liegen und für diese Aufnahme ausgeblendet werden (damit im Rand nur Weiß zu sehen ist).
 const PAD = 16;
+const MAX_BYTES = 1_000_000;                       // jede Datei unter 1 MB
+const QUALITIES = [95, 92, 88, 84, 80, 76, 72, 68, 64, 60, 55, 50];
 const SHOTS = [
   { cond: 'C1', name: 'Post',                          region: ['post'],               pad: PAD, hide: ['summary', 'comments'] },
   { cond: 'A',  name: 'A_Zusammenfassung_Kommentare',  region: ['summary', 'comments'], pad: 0,   hide: [] },
@@ -80,6 +83,18 @@ const page = await context.newPage();
 let failed = false;
 const missingAll = new Set();
 
+/* JPEG mit der höchsten Qualität speichern, bei der die Datei unter MAX_BYTES bleibt.
+   take(quality) liefert den Screenshot als Buffer. Rückgabe: { quality, bytes }. */
+async function saveJpeg(file, take) {
+  let buf, q;
+  for (q of QUALITIES) {
+    buf = await take(q);
+    if (buf.length < MAX_BYTES) break;
+  }
+  fs.writeFileSync(file, buf);
+  return { quality: q, bytes: buf.length };
+}
+
 /* Ausschnitt in Seitenkoordinaten (Vereinigung der Bereiche plus weißer Rand unten).
    Seitenkoordinaten statt Viewport-Koordinaten, weil frühere Element-Screenshots die Seite scrollen. */
 async function regionBox(names, pad) {
@@ -98,6 +113,7 @@ for (const id of caseIds) {
 
   // Alte Unterordner-Ausgabe dieses Falls entfernen
   fs.rmSync(path.join(OUT, id), { recursive: true, force: true });
+  for (const f of fs.readdirSync(OUT)) if (f.startsWith(`${id}_`) && /\.(png|jpg)$/.test(f)) fs.rmSync(path.join(OUT, f));
 
   for (const shot of SHOTS) {
     await page.goto(`${BASE}/index.html?case=${encodeURIComponent(id)}&cond=${shot.cond}`);
@@ -112,9 +128,11 @@ for (const id of caseIds) {
     if (shot.cond !== 'C2') {
       hashes.comments[shot.cond] = sha(await page.locator('[data-shot="comments"]').screenshot());
     }
-    const file = path.join(OUT, `${id}_${shot.name}.png`);
+    const file = path.join(OUT, `${id}_${shot.name}.jpg`);
+    let saved;
     if (shot.region.length === 1 && shot.pad === 0) {
-      await page.locator(`[data-shot="${shot.region[0]}"]`).screenshot({ path: file });
+      const loc = page.locator(`[data-shot="${shot.region[0]}"]`);
+      saved = await saveJpeg(file, (quality) => loc.screenshot({ type: 'jpeg', quality }));
     } else {
       if (shot.pad > 0) {
         // Alles unter dem Ausschnitt ausblenden (inkl. Home-Indicator), Rand bleibt weiß
@@ -125,9 +143,11 @@ for (const id of caseIds) {
         }, [shot.hide, shot.pad]);
       }
       const clip = await regionBox(shot.region, shot.pad);
-      await page.screenshot({ path: file, fullPage: true, clip });
+      saved = await saveJpeg(file, (quality) => page.screenshot({ type: 'jpeg', quality, fullPage: true, clip }));
     }
-    console.log(`  ${id} → output/${id}_${shot.name}.png`);
+    const kb = Math.round(saved.bytes / 1000);
+    if (saved.bytes >= MAX_BYTES) { failed = true; console.log(`  ✗ ${id}_${shot.name}.jpg: ${kb} KB, auch bei Qualität ${saved.quality} nicht unter 1 MB`); }
+    console.log(`  ${id} → output/${id}_${shot.name}.jpg  (${kb} KB, Qualität ${saved.quality})`);
 
     counts[shot.name] = await page.evaluate(() => ({
       // Like- und Kommentarzahl dürfen nirgends sichtbar sein
